@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>twitter.com</title>
+        <link rel="stylesheet" href="css/output.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet"
+                href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=edit" />
+</head>
+
+<body class="bg-black text-white">
+        <div class=" main-container   lg:m-0 xl:ml-52  flex   ">
+                <div class="first   sm:w-[30%]  w-[50%]">
+
+
+                        <div class="sidebar sticky top-0">
+                                <div class="logo sm:ml-3  cursor-pointer ml-1 my-4 invert">
+                                        <img src="/img/logo.svg" class="xl:w-8 sm:m-0 sm:w-12" alt="">
+                                </div>
+                                <ul class="menus sm:m-0  md:p-0    md:menus-text  flex flex-col mr-5  my-5 text-xl">
+                                        <li
+                                                class="flex justify-start items-start gap-3 w-fit px-5  py-2 hover:cursor-pointer hover:font-bold   hover:bg-gray-900 hover:rounded-full  ">
+                                                <img src="/img/home.svg" class="invert xl:w-6 sm:w-10 " alt=""> <span
+                                                        class="menus-text hidden md:block  ">Home</span>
+                                        </li>
+
+
+                                        <li
+                                                class="flex justify-start items-start gap-3 w-fit px-5  py-2 hover:cursor-pointer hover:font-bold   hover:bg-gray-900 hover:rounded-full ">
+                                                <img src="/img/explore.svg" class="invert xl:w-6 sm:w-10" alt=""><span
+                                                        class="menus-text hidden md:block  ">Explore</span>
+                                        </li>
+                                        <li
+                                                class="flex justify-start items-start gap-3 w-fit px-5   py-2 hover:cursor-pointer hover:font-bold   hover:bg-gray-900 hover:rounded-full ">
+                                                <img src="/img/notification.svg" class="invert xl:w-6 sm:w-10"
+                                                        alt=""><span
+                                                        class="menus-text hidden md:block  ">Notifications</span>
+                                        </li>
+                                        <li
+                                                class="flex justify-start items-start gap-3 w-fit px-5  py-2 hover:cursor-pointer hover:font-bold   hover:bg-gray-900 hover:rounded-full ">
+                                                <img src="/img/grok.svg" class="invert xl:w-6 sm:w-10" alt=""><span
+                                                        class="menus-text hidden md:block  ">Grok</span>
+                                        </li>
+                                        <li
+                                                class="flex justify-start items-start gap-3 w-fit px-5  py-2 hover:cursor-pointer hover:font-bold   hover:bg-gray-900 hover:rounded-full ">
+                                                <img src="/img/list.svg" class="invert xl:w-6 sm:w-10" alt=""><span
+                                                        class="menus-text hidden md:block  ">Lists</span>
+                                        </li>
+                                        <li
+                                                class="flex justify-start items-start gap-3 w-fit px-5  py-2 hover:cursor-pointer hover:font-bold   hover:bg-gray-900 hover:rounded-full ">
+                                                <img src="/img/bookmark.svg" class="invert xl:w-6 sm:w-10" alt=""><span
+                                                        class="menus-text hidden md:block  ">Bookmarks</span>
+                                        </li>
+                                        <li
+                                                class="flex justify-start items-start gap-3 w-fit px-5  py-2 hover:cursor-pointer hover:font-bold   hover:bg-gray-900 hover:rounded-full ">
+                                                <img src="/img/communitiy.svg" class="invert xl:w-6 sm:w-10"
+                                                        alt=""><span
+                                                        class="menus-text hidden md:block  ">Communities</span>
+                                        </li>
+                                        <li
+                                                class="flex justify-start items-start gap-3 w-fit px-5  py-2 hover:cursor-pointer hover:font-bold   hover:bg-gray-900 hover:rounded-full ">
+                                                <img src="/img/premium.svg" class="invert xl:w-6 sm:w-10" alt=""><span
+                                                        class="menus-text hidden md:block  ">Premium</span>
+                                        </li>
+                                        <li
+                                                class="flex justify-start items-start gap-3 w-fit px-5  py-2 hover:cursor-pointer hover:font-bold   hover:bg-gray-900 hover:rounded-full ">
+                                                <img src="/img/profile.svg" class="invert xl:w-6 sm:w-10" alt=""><span
+                                                        class="menus-text hidden md:block  ">Profile</span>
+                                        </li>
+                                        <li
+                                                class="flex justify-start items-start gap-3 w-fit px-5  py-2 hover:cursor-pointer hover:font-bold   hover:bg-gray-900 hover:rounded-full ">
+                                                <img src="/img/more.svg" class="invert xl:w-6 sm:w-10" alt=""><span
+                                                        class="menus-text hidden md:block  ">More</span>
+                                        </li>
+                                </ul>
+
+
+
+                                <div
+                                        class="w-[90%]  hidden xl:block  sm:m-0 font-bold py-4 mr-5 hover:bg-blue-400 rounded-full text-center bg-blue-500 ">
+
+                                        <button class=" text-lg  ">Post</button>
+                                </div>
+                                <div
+                                        class="xl:hidden w-[90%]sm:m-0 font-bold py-4 mr-5 hover:bg-blue-400 rounded-full text-center bg-blue-500 ">
+
+                                        <button class=" text-lg  "><span class="material-symbols-outlined">
+                                                        edit
+                                                </span></button>
+                                </div>
+                                <div class="userprofile w-full mt-10 flex  mx-5">
+                                        <div
+                                                class="item p-3 items-center gap-5 mr-7 flex hover:bg-gray-800 cursor-pointer rounded-full w-fit">
+                                                <div class="p1">
+                                                        <img class="w-12 h-12" src="/img/me.jpg" alt="">
+                                                </div>
+                                                <div class="p2">
+                                                        <div>Satyam Raj</div>
+                                                        <div class="text-gray-500">@satyamrajrao</div>
+                                                </div>
+                                                <div class="p3 text-2xl">...</div>
+                                        </div>
+                                </div>
+                        </div>
+                </div>
+                <div class="second border border-x-gray-600 border-y-black  w-full">
+                        <div class="top flex p-3  sticky top-0 bg-black backdrop-blur-3xl opacity-65 ">
+                                <div class="absolute w-14 h-1 rounded-full bg-sky-500 bottom-0   left-[21%] z-10"></div>
+                                <div class="left  w-1/2 flex justify-center">
+                                        For You
+                                </div>
+                                <div class="right w-1/2 flex justify-center">
+                                        Following
+                                </div>
+                        </div>
+
+                        <div class="w-full h-[1px] bg-gray-700"></div>
+                        <div class="whatishapp m-2 flex gap-1">
+                                <div class="img  m-2">
+                                        <img class="rounded-full" src="/img/me.jpg" alt="">
+                                </div>
+                                <div class="w-full">
+
+                                        <input type="text"
+                                                class="w-full h-7 my-4 text-xl placeholder:text-gray-500 bg-black outline-none text-white"
+                                                placeholder="What is Happening?!">
+
+                                        <div
+                                                class="flex cursor-pointer text-sm items-center text-blue-500 gap-1 w-full ">
+                                                <span>
+                                                        <svg class="w-4" xmlns="http://www.w3.org/2000/svg"
+                                                                height="24px" viewBox="0 -960 960 960" width="24px"
+                                                                fill="rgb(33, 167, 245)">
+                                                                <path
+                                                                        d="M472-159q-33 0-56.5-24T392-240q0-33 23.5-56.5T472-320l24-23q8-8 18.5-12.5T536-360q23 0 39.5 17t16.5 40v17q0 20 13 33t33 13q15 0 27-9t17-23l12-33q9-24 29-39.5t46-15.5q11-28 17.5-58t6.5-62q0-89-44.5-162.5T632-758v38q0 33-23.5 56.5T552-640h-40v80q0 17-11.5 28.5T472-520h-40v68q0 22-15 37t-37 15q-14 0-25.5-6T336-423l-64-97h-40v40q0 31-21 53t-50 26q26 104 112.5 173T472-159Zm80-241q-17 0-28.5-11.5T512-440q0-17 11.5-28.5T552-480h40q17 0 28.5 11.5T632-440q0 17-11.5 28.5T592-400h-40Zm93-120q-20 0-31.5-15.5T608-570l15-44q4-12 14-19t22-7q20 0 31.5 15.5T696-590l-15 44q-4 12-14 19t-22 7ZM472-80q-83 0-156-31.5T189-197q-54-54-85.5-127T72-480q0-83 31.5-156T189-763q54-54 127-85.5T472-880q83 0 156 31.5T755-763q54 54 85.5 127T872-480q0 83-31.5 156T755-197q-54 54-127 85.5T472-80Z" />
+                                                        </svg>
+                                                </span>
+                                                <span class="font-bold">Everyone can reply</span>
+                                        </div>
+                                        <div class="my-3 w-[90%] h-[0.2px] bg-gray-400"></div>
+                                        <div class="six-icons cursor-pointer flex flex-row justify-between">
+                                                <div class="six-icons flex-row flex hover:text-blue-400 gap-3">
+                                                        <img src="/img/gallary.svg" alt="" class=" w-5">
+                                                        <img src="/img/gif.svg" alt="" class=" w-5">
+                                                        <img src="/img/emoji.svg" alt="" class=" w-5">
+                                                        <img src="/img/poll.svg" alt="" class=" w-5">
+                                                        <img src="/img/schedule.svg" alt="" class=" w-5">
+                                                        <img src="/img/location.svg" alt="" class=" w-5">
+                                                </div>
+                                                <div
+                                                        class="w-16 py-1 hover:bg-blue-400 rounded-full text-center bg-blue-500 ">
+
+                                                        <button class=" text-lg  ">Post</button>
+                                                </div>
+                                        </div>
+                                </div>
+
+
+                        </div>
+                        <div class="w-full h-[1px] bg-gray-700"></div>
+                        <div class="cursor-pointer hover:underline text-blue-500 text-center my-3">Show 21 posts</div>
+                        <div class="w-full h-[1px] bg-gray-700"></div>
+
+                        <div class="posts">
+                                <div class="post ">
+                                        <div class="flex">
+                                                <div class="image w-48 m-4">
+                                                        <img src="/img/me.jpg" alt="" class="rounded-full w-16">
+
+                                                </div>
+                                                <div class="content my-3">
+                                                        <span
+                                                                class="font-bold cursor-pointer text-white hover:underline">___satyam_raj_rao</span><span
+                                                                class="text-gray-500">
+                                                                @pictureByYou · Oct 27</span>
+                                                        <div class="text-slate-500">@kai</div>
+                                                        <div class="mt-2"> A reminder</div>
+                                                        <div class="posting m-4 ml-0">
+                                                                <img class="rounded-lg" src="/img/post1.jpeg" alt="">
+
+                                                        </div>
+                                                        <div class="post-icons  cursor-pointer justify-between flex">
+                                                                <div
+                                                                        class="flex-row hover:text-blue-400 flex text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/comment.svg"
+                                                                                alt=""><span>34k</span>
+                                                                </div>
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/repost.svg"
+                                                                                alt=""><span>67k</span>
+                                                                </div>
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/like.svg"
+                                                                                alt=""><span>43k</span>
+                                                                </div>
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/stat.svg"
+                                                                                alt=""><span>43k</span>
+                                                                </div>
+                                                                <div class="flex-row mr-2  flex gap-1">
+                                                                        <span>
+
+                                                                                <img class=" w-5" src="img/bookmark.svg"
+                                                                                        alt="">
+                                                                        </span>
+                                                                        <span>
+
+                                                                                <img class=" w-5" src="img/upload.svg"
+                                                                                        alt="">
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+                                                </div>
+                                        </div>
+
+                                </div>
+                                <div class="w-full h-[1px] bg-gray-700"></div>
+
+                                <div class="post2">
+                                        <div class="flex">
+                                                <div class="image  m-4">
+                                                        <img src="/img/me.jpg" alt="" class="rounded-full w-16">
+
+                                                </div>
+                                                <div class="content my-3">
+                                                        <span
+                                                                class="font-bold cursor-pointer text-white hover:underline">___satyam_raj_rao</span><span
+                                                                class="text-gray-500">
+                                                                @pictureByYou · Oct 27</span>
+                                                        <div class="text-slate-500">@kai</div>
+                                                        <div class="mt-2">The Richard Feynman </div>
+                                                        <div class="posting m-4 ml-0">
+                                                                <img class="rounded-lg" src="/img/post2.jpeg" alt="">
+
+                                                        </div>
+                                                        <div class="post-icons  cursor-pointer justify-between flex">
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/comment.svg"
+                                                                                alt=""><span>18k</span>
+                                                                </div>
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/repost.svg"
+                                                                                alt=""><span>5k</span>
+                                                                </div>
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/like.svg"
+                                                                                alt=""><span>123k</span>
+                                                                </div>
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/stat.svg"
+                                                                                alt=""><span>12k</span>
+                                                                </div>
+                                                                <div class="flex-row mr-2  flex gap-1">
+                                                                        <span>
+
+                                                                                <img class=" w-5" src="img/bookmark.svg"
+                                                                                        alt="">
+                                                                        </span>
+                                                                        <span>
+
+                                                                                <img class=" w-5" src="img/upload.svg"
+                                                                                        alt="">
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+
+                                                </div>
+                                        </div>
+
+                                </div>
+                                <div class="w-full h-[1px] bg-gray-700"></div>
+
+                                <div class="post3">
+                                        <div class="flex">
+                                                <div class="image  m-4">
+                                                        <img src="/img/me.jpg" alt="" class="rounded-full w-16">
+
+                                                </div>
+                                                <div class="content my-3">
+                                                        <span
+                                                                class="font-bold cursor-pointer text-white hover:underline">___satyam_raj_rao</span><span
+                                                                class="text-gray-500">
+                                                                @pictureByYou · Oct 27</span>
+                                                        <div class="text-slate-500">@kai</div>
+                                                        <div class="mt-2"> The Molecules</div>
+                                                        <div class="posting m-4 ml-0">
+                                                                <img class="rounded-lg" src="/img/post3.jpeg" alt="">
+
+                                                        </div>
+                                                        <div class="post-icons  cursor-pointer justify-between flex">
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/comment.svg"
+                                                                                alt=""><span>1k</span>
+                                                                </div>
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/repost.svg"
+                                                                                alt=""><span>17k</span>
+                                                                </div>
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/like.svg"
+                                                                                alt=""><span>150k</span>
+                                                                </div>
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/stat.svg"
+                                                                                alt=""><span>13k</span>
+                                                                </div>
+                                                                <div class="flex-row mr-2  flex gap-1">
+                                                                        <span>
+
+                                                                                <img class=" w-5" src="img/bookmark.svg"
+                                                                                        alt="">
+                                                                        </span>
+                                                                        <span>
+
+                                                                                <img class=" w-5" src="img/upload.svg"
+                                                                                        alt="">
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+
+                                                </div>
+                                        </div>
+
+                                </div>
+                                <div class="w-full h-[1px] bg-gray-700"></div>
+
+                                <div class="post4">
+                                        <div class="flex">
+                                                <div class="image m-4">
+                                                        <img src="/img/me.jpg" alt="" class="rounded-full w-16">
+
+                                                </div>
+                                                <div class="content my-3">
+                                                        <span
+                                                                class="font-bold cursor-pointer text-white hover:underline">___satyam_raj_rao</span><span
+                                                                class="text-gray-500">
+                                                                @pictureByYou · Oct 27</span>
+                                                        <div class="text-slate-500">@kai</div>
+                                                        <div class="mt-2"> The Genius</div>
+                                                        <div class="posting m-4 ml-0">
+                                                                <img class="rounded-lg" src="/img/post4.png" alt="">
+
+                                                        </div>
+                                                        <div class="post-icons  cursor-pointer justify-between flex">
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/comment.svg"
+                                                                                alt=""><span>46k</span>
+                                                                </div>
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/repost.svg"
+                                                                                alt=""><span>70k</span>
+                                                                </div>
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/like.svg"
+                                                                                alt=""><span>5m</span>
+                                                                </div>
+                                                                <div
+                                                                        class="flex-row flex hover:text-blue-400 text-gray-500 justify-center">
+                                                                        <img class=" w-5" src="img/stat.svg"
+                                                                                alt=""><span>91k</span>
+                                                                </div>
+                                                                <div class="flex-row mr-2  flex gap-1">
+                                                                        <span>
+
+                                                                                <img class=" w-5" src="img/bookmark.svg"
+                                                                                        alt="">
+                                                                        </span>
+                                                                        <span>
+
+                                                                                <img class=" w-5" src="img/upload.svg"
+                                                                                        alt="">
+                                                                        </span>
+                                                                </div>
+                                                        </div>
+
+
+                                                </div>
+                                        </div>
+
+                                </div>
+                                <div class="w-full h-[1px] bg-gray-700"></div>
+
+                        </div>
+
+
+                </div>
+                <div class="third sm:w-[35%]    xl:w-[60%] w-full">
+
+                        <div class=" flex sticky top-0  search-box m-2">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true"
+                                        class="  w-5  mx-4 my-3 absolute r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-lrvibr r-m6rgpd r-1nao33i r-lwhw9o r-cnnz9e">
+                                        <g>
+                                                <path d="M10.25 4.25c-3.314 0-6 2.686-6 6s2.686 6 6 6c1.657 0 3.155-.67 4.243-1.757 1.087-1.088 1.757-2.586 1.757-4.243 0-3.314-2.686-6-6-6zm-9 6c0-4.971 4.029-9 9-9s9 4.029 9 9c0 1.943-.617 3.744-1.664 5.215l4.475 4.474-2.122 2.122-4.474-4.475c-1.471 1.047-3.272 1.664-5.215 1.664-4.971 0-9-4.029-9-9z"
+                                                        style="fill: rgb(33, 167, 245)"></path>
+                                        </g>
+                                </svg>
+
+                                <div
+                                        class="search sm:w-fit mdmenus-text :w-fit   w-1/2  rounded-full bg-[#16181c] text-white px-4 py-2">
+
+                                        <input class="bg-[#16181c] mx-10 w-1/2 focus:outline-none focus:border-transparent "
+                                                type="text" name="search" id="" placeholder="Search">
+                                </div>
+
+                        </div>
+                        <div
+                                class="whats sticky top-[8vh] mdmenus-text    sm:w-fit m-3 bg-[#16181c] w-1/2 py-5 rounded-xl space-y-3">
+                                <h1 class="text-xl font-bold px-3">Whats Happening</h1>
+                                <div class="item p-3 hover:bg-gray-800 cursor-pointer px-3">
+                                        <div class="text-sm text-gray-200 ">Trending in India</div>
+                                        <div class="font-bold">#Kai</div>
+                                        <div class="text-sm text-gray-200">40.4k Posts</div>
+                                </div>
+                                <div class="item p-3 hover:bg-gray-800 cursor-pointer px-3">
+                                        <div class="text-sm text-gray-200 ">Trending in India</div>
+                                        <div class="font-bold">#harry</div>
+                                        <div class="text-sm text-gray-200">40.4k Posts</div>
+                                </div>
+                                <div class="item p-3 hover:bg-gray-800 cursor-pointer px-3">
+                                        <div class="text-sm text-gray-200 ">Trending in India</div>
+                                        <div class="font-bold">#viikee</div>
+                                        <div class="text-sm text-gray-200">40.4k Posts</div>
+                                </div>
+                                <div class="item p-3 hover:bg-gray-800 cursor-pointer px-3">
+                                        <div class="text-sm text-gray-200 ">Trending in India</div>
+                                        <div class="font-bold">#SatyamRajRao</div>
+                                        <div class="text-sm text-gray-200">40.4k Posts</div>
+                                </div>
+                        </div>
+                        <div
+                                class="Who sticky top-[75vh] sm:w-fit mdmenus-text   m-3 bg-[#16181c] w-1/2 py-5 rounded-xl ">
+                                <h1 class="text-xl font-bold px-3">Who To Follow</h1>
+
+                                <div class="item space-y-3 p-3   hover:rounded-2xl  py-7 px-3">
+                                        <div class="flex p-3 justify-between hover:bg-gray-800 cursor-pointer gap-3">
+                                                <div class="p1">
+                                                        <img src="/img/deepmind.jpg" alt="deepmind" class="w-11 h-11">
+                                                </div>
+                                                <div class="p2">
+                                                        <div>DeepMind.ai</div>
+                                                        <div class="text-gray-500">@deepmind</div>
+                                                </div>
+                                                <div class="p3">
+                                                        <button
+                                                                class="bg-white text-black text-sm px-5 py-2 rounded-full font-bold">Follow</button>
+                                                </div>
+                                        </div>
+                                        <div class="flex p-3 justify-between hover:bg-gray-800 cursor-pointer gap-3">
+                                                <div class="p1">
+                                                        <img src="/img/antropic.jpg" alt="antropic" class="w-11 h-11">
+                                                </div>
+                                                <div class="p2">
+                                                        <div>Antropic.ai</div>
+                                                        <div class="text-gray-500">@antropic</div>
+                                                </div>
+                                                <div class="p3">
+                                                        <button
+                                                                class="bg-white text-black text-sm px-5 py-2 rounded-full font-bold">Follow</button>
+                                                </div>
+                                        </div>
+                                        <div class="flex p-3 justify-between hover:bg-gray-800 cursor-pointer gap-3">
+                                                <div class="p1">
+                                                        <img src="/img/pytorch.jpg" alt="deepmind" class="w-11 h-11">
+                                                </div>
+                                                <div class="p2">
+                                                        <div>PyTorch.py</div>
+                                                        <div class="text-gray-500">@pytorch</div>
+                                                </div>
+                                                <div class="p3">
+                                                        <button
+                                                                class="bg-white text-black px-5 text-sm py-2 rounded-full font-bold">Follow</button>
+                                                </div>
+                                        </div>
+
+                                </div>
+                                <div class="px-4 hover:underline text-blue-500 cursor-pointer ">Show More</div>
+
+
+                        </div>
+                        <!-- <div class="terms sticky top-[50vh] m-3 text-xs text-gray-500 px-3 w-1/2 py-5 space-y-1">
+                                <span  class="hover:underline cursor-pointer mr-2 ">Terms of Services</span>
+                                <span  class="hover:underline cursor-pointer mr-2 ">Privacy Policy</span>
+                                <span  class="hover:underline cursor-pointer mr-2 ">Cookie Policy</span>
+                                <span  class="hover:underline cursor-pointer mr-2 ">Accessibility</span>
+                                <span  class="hover:underline cursor-pointer mr-2 ">Ads info</span>
+                                <span  class="hover:underline cursor-pointer mr-2 ">More</span>
+                                <span  class="hover:underline cursor-pointer mr-2 ">&copy; 2024 X Corp.</span>
+
+                        </div> -->
+                </div>
+        </div>
+</body>
+
+</html>
